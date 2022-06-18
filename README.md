@@ -31,3 +31,9 @@ If you want to run it in the background without an open terminal window, you can
 If you prefer tmux, use `tmux new -s rigctlCloudlog ./rigctlCloudlogInterface.php`. 
 
 For more information on how-to setup hamlib/rigctld have a look over at the excellent guide written for pat: https://github.com/la5nta/pat/wiki/Rig-control
+
+## Fork
+
+This fork packages cloudlog-rigctl-interface as a [Nix
+Flake](https://nixos.wiki/wiki/Flakes), providing a [NixOS](https://nixos.org)
+module and package for easy integration in to your NixOS configuration.
