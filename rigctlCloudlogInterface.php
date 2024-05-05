@@ -30,18 +30,6 @@ while (true)
 				"radio" => $radio_name,
 				"frequency" => $data['frequency'],
 				"mode" => $data['mode'],
-
-				/* Found these additional parameter in magicbug's SatPC32 application.
-				   I'm not much of a satellite op yet, so I'm not sure how these should be implemented (probably with the secondary VFOs?)
-				   PR or Issues with details welcome!
-
-				   I'm still sending these values in order to mitigate a nasty "Message: Undefined variable: uplink_mode" PHP error in one of the AJAX calls.
-				*/
-				"sat_name" => "",
-				"downlink_freq" => 0,
-				"uplink_freq" => 0,
-				"downlink_mode" => 0,
-				"uplink_mode" => 0,
 				"key" => $cloudlog_apikey
 			];
 
